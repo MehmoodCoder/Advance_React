@@ -4,6 +4,12 @@ A modern, lightweight, and highly interactive Todo Application built using React
 
 ---
 
+# 🌐 Live Demo
+
+- 🔗 Live : [https://mh56-todo.vercel.app](https://mh56-todo.vercel.app)
+
+---
+
 ## ✨ Features
 
 - 🌐 **Global State Management** – Uses React Context API to synchronize tasks across isolated form and item list components.
