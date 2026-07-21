@@ -100,10 +100,12 @@ A clean, light local state task manager covering standard React hook patterns.
 │   └── 📁 Todo
 ├── 📁 Tech_Task
 └── 📝 README.md
+```
 
 ---
 
 ## 🛠️ Tech Stack
+
 * **Framework:** React.js (Vite Template)
 * **Styling:** Tailwind CSS 
 * **Language:** JavaScript (ES6+), HTML, CSS
@@ -116,7 +118,9 @@ A clean, light local state task manager covering standard React hook patterns.
 Every time I initialize a new React + Tailwind CSS project, I follow these exact standard steps. You can use this guide to recreate or understand the workspace structure:
 
 ### Step 1: Initialize Vite Project
+
 Run the following command in your terminal:
+
 ```bash
 npm create vite@latest
 ```
