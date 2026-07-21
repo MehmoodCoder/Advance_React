@@ -149,7 +149,6 @@ cd Project
 
 # Start the local development server
 npm run dev
-
 ```
 
 ---
@@ -164,18 +163,79 @@ npm run dev
 
 ### Installation
 
+## 📦 Installing Redux Toolkit in React
+
+To use Redux in your React project, install the required packages using either npm or yarn:
+
+### Option 1: Single Command (Recommended)
+
+```bash
+npm install @reduxjs/toolkit react-redux
+```
+
+---
+
+### Option 2: Step-by-Step Installation
+
+#### Step 1: Install Core Redux Toolkit
+
+Installs `@reduxjs/toolkit` which contains configureStore, createSlice, createAsyncThunk, and all essential RTK utilities.
+
+```bash
+npm install @reduxjs/toolkit
+```
+
+#### Step 2: Install React Redux Bindings
+
+Installs `react-redux` which provides React hooks like useSelector, useDispatch, and the <Provider> wrapper to connect Redux with React components.
+
+```bash
+npm install react-redux
+```
+
+---
+
+### Installing Tailwind CSS v4 (Vite)
+
+```bash
+npm install tailwindcss @tailwindcss/vite
+```
+
+---
+
+Add plugin to `vite.config.js`:
+```js
+import tailwindcss from '@tailwindcss/vite'
+
+export default {
+  plugins: [tailwindcss()],
+}
+```
+
+---
+
+Add to `index.css`:
+```css
+@import "tailwindcss";
+```
+
+---
+
 1. **Clone the repository**
+
 ```bash
 git clone https://github.com/MehmoodCoder/Advance_React.git
 cd Advance_React/Project Folder
 ```
 
 2. **Install dependencies**
+
 ```bash
 npm install
 ```
 
 3. **Start the development server**
+
 ```bash
 npm run dev
 ```
@@ -183,6 +243,7 @@ npm run dev
 ## 📜 Available Scripts
 
 ### Development
+
 ```bash
 npm run dev
 ```
@@ -218,6 +279,7 @@ This project uses ** TailwindCSS ** for all styling.
 - [Vite Guide](https://vitejs.dev)
 
 ---
+
 ## 👤 Author
 
 **MehmoodCoder**
