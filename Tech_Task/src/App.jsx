@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useDispatch } from "react-redux";
-import { fetchTasksAsync } from "./features/asyncTaskSlice";
-import AddTaskForm from "./components/AddTaskForm";
-import SearchFilterBar from "./components/SearchFilterBar";
-import Dashboard from "./components/Dashboard";
+import { fetchTasksAsync } from "./features/asyncTaskSlice.js";
+import AddTaskForm from "./components/AddTaskForm.jsx";
+import SearchFilterBar from "./components/SearchFilterBar.jsx";
+import Dashboard from "./components/Dashboard.jsx";
 
 function App() {
   const [editTask, setEditTask] = useState(null);
